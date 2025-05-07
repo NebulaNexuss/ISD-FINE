@@ -8,7 +8,7 @@
 - **Secondary Source:** Originally forked from RT‑DETR (2023) © lyuwenyu. All Rights Reserved.  
 
 ### Acknowledgements  
-We gratefully acknowledge the original D‑FINE authors for their foundational work and lyuwenyu for RT‑DETR, on which this implementation builds. Including an “Acknowledgements” section in your README is a widely recommended practice to give proper credit to upstream projects and contributors.
+We gratefully acknowledge the original D‑FINE authors for their foundational work and lyuwenyu for RT‑DETR, on which this implementation builds. 
 
 ### Key Modifications  
 All changes live in the decoder component—specifically, in `src/zoo/dfine/dfine_decoder.py`.  
