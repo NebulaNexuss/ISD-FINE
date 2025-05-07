@@ -15,7 +15,7 @@ All changes live in the decoder component—specifically, in `src/zoo/dfine/dfin
 
 1. **Inter‑layer Self‑Distillation**  
    - Replaced the original GO‑LSD (Global‑Local Semantic Distillation) scheme with an **inter‑layer self‑distillation** framework.  
-   - Each decoder layer now distills knowledge into the next layer, improving feature propagation and stabilizing training.  
+   - Each decoder layer now distills knowledge into the adjacent shallower layer, improving feature propagation and stabilizing training.  
 
 2. **Self‑Distillation in Attention Weights**  
    - Introduced self‑distillation directly on the decoder’s multi‑head attention weights: each head’s attention map from layer *L* is used as a “soft target” for the same head in layer *L+1*.  
