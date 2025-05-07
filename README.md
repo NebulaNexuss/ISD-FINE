@@ -18,7 +18,7 @@ All changes live in the decoder component—specifically, in `src/zoo/dfine/dfin
    - Each decoder layer now distills knowledge into the adjacent shallower layer, improving feature propagation and stabilizing training.  
 
 2. **Self‑Distillation in Attention Weights**  
-   - Introduced self‑distillation directly on the decoder’s multi‑head attention weights: each head’s attention map from layer *L* is used as a “soft target” for the same head in layer *L+1*.  
+   - Introduced self‑distillation directly on the decoder’s multi‑head attention weights: each head’s attention map from layer *L+1* is used as a “soft target” for the same head in layer *L*.  
    - This encourages consistency across layers and sharpens object localization cues.  
 
 
